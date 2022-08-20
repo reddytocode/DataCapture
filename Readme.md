@@ -1,19 +1,13 @@
 # Data Capture
 
+In order to run this project you need to have installed python 3.x and be able to run the python command in your terminal.
 
-# Setup
+## Run the tests
 ```
-python 3.9.12
-```
-
-## Install basic dependencies
-```
-pip install -r requirements.txt
+python tests.py
 ```
 
-
-# Run the tests
+## Run an example
 ```
-pytest tests.py
+python main.py
 ```
-
