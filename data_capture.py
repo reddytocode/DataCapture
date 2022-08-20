@@ -3,7 +3,7 @@ class Number:
     Describes each number and its own stats
     """
 
-    def __init__(self, value: int, count: int = 1, less: int = 0, greater: int = 0):
+    def __init__(self, value: int, count: int = 1, less: int = 0, greater: int = 0) -> None:
         self.value: int = value
 
         self.less: int = less
