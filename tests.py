@@ -1,3 +1,4 @@
+import unittest
 from unittest import TestCase
 
 from data_capture import DataCapture, Number, Stats
@@ -62,3 +63,7 @@ class TestDataCapture(TestCase):
         stats = self.capture.build_stats()
         result = stats.greater(4)
         self.assertEqual(result, 2)
+
+
+if __name__ == "__main__":
+    unittest.main()
